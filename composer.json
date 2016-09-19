@@ -1,0 +1,41 @@
+{
+  "name": "mindy/var_dumper",
+  "homepage": "https://github.com/MindyPHP/Mindy_VarDumper",
+  "license": "BSD",
+  "autoload": {
+    "files": [
+      "src/functions.php"
+    ],
+    "psr-4": {
+      "Mindy\\VarDumper\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "files": [
+      "src/functions.php"
+    ],
+    "psr-4": {
+      "Mindy\\": "src/",
+      "Mindy\\Tests\\": "test/"
+    }
+  },
+  "require": {
+    "php": ">=7.0",
+    "symfony/var-dumper": "^3.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*",
+    "phpunit/php-code-coverage": "*"
+  },
+  "authors": [
+    {
+      "name": "Maxim Falaleev",
+      "email": "max@studio107.ru",
+      "homepage": "http://studio107.ru",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/MindyPHP/Mindy_VarDumper/issues?state=open"
+  }
+}
